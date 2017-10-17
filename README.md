@@ -33,7 +33,7 @@ Example Playbook
 - hosts: all
   become: true
   roles:
-    - { role: node, node_version: 6.9.1, node_nodesource_download_url: 'https://rpm.nodesource.com/pub_6.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm' }
+    - { role: galaxy-node, node_version: 6.9.1, node_nodesource_download_url: 'https://rpm.nodesource.com/pub_6.x/el/7/x86_64/nodesource-release-el7-1.noarch.rpm' }
 ```
 
 License
